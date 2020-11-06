@@ -10,13 +10,12 @@ export default function Footer() {
             Statically Generated with Next.js.
           </h3>
           <div>
-            <p>Content by <a href="https://www.linkedin.com/in/alexandreduros/" className="text-center hover:underline lg:w-1/3">Alexandre Duros</a></p>
             <p>Drawings by <a href="https://www.anouckferri.com/" className="text-center hover:underline lg:w-1/3">Anouck Ferri</a></p>
-
+            <p>Content by <a href="https://www.linkedin.com/in/alexandreduros/" className="text-center hover:underline lg:w-1/3">Alexandre Duros</a></p>
           </div>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/3">
             <a href={`https://github.com/alexduros/blog`} className="mx-3 font-bold hover:underline">
-              View on GitHub
+              View on source code on GitHub
             </a>
           </div>
         </div>
