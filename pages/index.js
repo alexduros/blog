@@ -19,7 +19,7 @@ export default function Index({ allPosts }) {
         </Head>
         <Container>
           <Intro />
-          {/* {heroPost && (
+          {heroPost && (
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
@@ -28,7 +28,7 @@ export default function Index({ allPosts }) {
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
-          )} */}
+          )}
           <About />
         </Container>
       </Layout>
