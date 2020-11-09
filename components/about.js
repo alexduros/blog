@@ -9,7 +9,7 @@ export default function About() {
   ]
 
     return (
-      <section className="container flex">
+      <section className="container flex flex-col sm:flex-row">
         {skills.map((s, i) => (<div className="flex-1">
           <div key={`skill-${s[0].replace(' ', '-')}`}className="mb-5 flex fex-row justify-center">
             <Image alt={`me ${s[0]}`} src={`/assets/blog/drawings/${s[1]}`} width={s[2]} height={200} />
