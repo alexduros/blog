@@ -15,21 +15,9 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Personal website of Alexandre Duros</title>
+          <title>Code. Run. Ride. - Alexandre Duros</title>
         </Head>
         <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          <About />
         </Container>
       </Layout>
     </>
